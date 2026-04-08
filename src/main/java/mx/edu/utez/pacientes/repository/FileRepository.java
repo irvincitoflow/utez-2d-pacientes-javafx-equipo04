@@ -6,28 +6,34 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FileRepository {
-    private final String FILE_NAME = "pacientes.txt";
+    private final String FILE_NAME = "pacientes.csv";
 
-    public void guardar(List<Paciente> lista) {
-        try (PrintWriter pw = new PrintWriter(new FileWriter(FILE_NAME))) {
+    public void escribirArchivo(List<Paciente> lista) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(FILE_NAME))) {
             for (Paciente p : lista) {
-                pw.println(p.getCurp() + "|" + p.getNombre() + "|" + p.getEdad() + "|" + p.getEnfermedad());
+                bw.write(p.toString());
+                bw.newLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            System.err.println("Error al escribir: " + e.getMessage());
         }
     }
 
-    public List<Paciente> leer() {
+    public List<Paciente> leerArchivo() {
         List<Paciente> lista = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader(FILE_NAME))) {
+        File file = new File(FILE_NAME);
+        if (!file.exists()) return lista;
+
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             String linea;
             while ((linea = br.readLine()) != null) {
-                String[] datos = linea.split("\\|");
-                lista.add(new Paciente(datos[0], datos[1], Integer.parseInt(datos[2]), datos[3]));
+                String[] d = linea.split(",");
+                if (d.length == 6) {
+                    lista.add(new Paciente(d[0], d[1], Integer.parseInt(d[2]), d[3], d[4], d[5]));
+                }
             }
-        } catch (IOException e) {
-            System.out.println("Archivo no encontrado, iniciando lista vacía.");
+        } catch (Exception e) {
+            System.err.println("Error al leer: " + e.getMessage());
         }
         return lista;
     }

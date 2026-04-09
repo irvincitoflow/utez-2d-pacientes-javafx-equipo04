@@ -10,7 +10,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="utez-2d-pacientes-javafx-equipo04" target="1.5" />
+      <module name="utez-2d-pacientes-javafx-equipo04" target="21" />
     </bytecodeTargetLevel>
   </component>
 </project>

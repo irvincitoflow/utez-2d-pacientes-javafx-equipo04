@@ -29,3 +29,15 @@ target/
 .idea/
 *.iml
 out/
+
+ /out/
+ /target/
+
+ .idea/
+ *.iml
+
+ pacientes.txt
+ pacientes.csv
+
+ .DS_Store
+ Thumbs.db

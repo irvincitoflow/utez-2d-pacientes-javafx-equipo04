@@ -1,14 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import java.lang.*?>
-<?import java.util.*?>
-<?import javafx.scene.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
 
-<AnchorPane xmlns="http://javafx.com/javafx"
-            xmlns:fx="http://javafx.com/fxml"
-            fx:controller="CONTROLLER_NAME"
-            prefHeight="400.0" prefWidth="600.0">
+<AnchorPane prefHeight="500.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mx.edu.utez.pacientes.controller.MainController">
+    <children>
+        <VBox spacing="15.0" AnchorPane.bottomAnchor="10.0" AnchorPane.leftAnchor="10.0" AnchorPane.rightAnchor="10.0" AnchorPane.topAnchor="10.0">
+            <children>
+                <Label text="Directorio de Pacientes - Consultorio Médico">
+                    <font>
+                        <Font name="System Bold" size="24.0" />
+                    </font>
+                </Label>
 
+                <HBox spacing="10.0">
+                    <children>
+                        <Button mnemonicParsing="false" onAction="#onNuevo" style="-fx-background-color: green;" text="Nuevo Paciente" textFill="WHITE" />
+                        <Button mnemonicParsing="false" onAction="#onEditar" style="-fx-background-color: blue;" text="Editar" textFill="WHITE" />
+                        <Button mnemonicParsing="false" onAction="#onCambiarEstatus" style="-fx-background-color: yellow;" text="Activar/Inactivar" />
+                        <Button mnemonicParsing="false" onAction="#onEliminar" style="-fx-background-color: red;" text="Eliminar (Permanente)" textFill="WHITE" />
+                    </children>
+                </HBox>
+
+                <TableView fx:id="tblPacientes" VBox.vgrow="ALWAYS">
+                    <columns>
+                        <TableColumn fx:id="colCurp" prefWidth="120.0" text="CURP" />
+                        <TableColumn fx:id="colNombre" prefWidth="200.0" text="Nombre Completo" />
+                        <TableColumn fx:id="colEdad" prefWidth="86.99996948242188" text="Edad" />
+                        <TableColumn fx:id="colTelefono" prefWidth="129.0" text="Teléfono" />
+                        <TableColumn fx:id="colAlergias" prefWidth="130.0" text="Alergias" />
+                        <TableColumn fx:id="colEstatus" prefWidth="113.3333740234375" text="Estatus" />
+                    </columns>
+                </TableView>
+
+                <HBox alignment="CENTER_RIGHT" spacing="30.0" style="-fx-background-color: #f4f4f4; -fx-padding: 10;">
+                    <children>
+                        <Label fx:id="lblTotal" text="Total: 0">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="lblActivos" text="Activos: 0" textFill="#208033">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                        <Label fx:id="lblInactivos" text="Inactivos: 0" textFill="#c31e1e">
+                            <font>
+                                <Font name="System Bold" size="14.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </HBox>
+            </children>
+        </VBox>
+    </children>
 </AnchorPane>

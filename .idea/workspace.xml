@@ -5,15 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cc5f268f-7877-47b9-8106-0f7c1a1e802a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/FormView.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/MainView.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/utez-2d-pacientes-javafx-equipo04.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/utez-2d-pacientes-javafx-equipo04.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/repository/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/repository/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pacientes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Pacientes.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/Launcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/model/Paciente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/service/PacienteService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/MainView.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +57,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "#1 on irvincitoflow/irvin-abarca",
+    "git-widget-placeholder": "AndrecitoFlow/Andres-Angelina",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pc/Desktop/utez-2d-pacientes-javafx-equipo04",
     "nodejs_package_manager_path": "npm",

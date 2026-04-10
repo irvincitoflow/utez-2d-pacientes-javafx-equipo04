@@ -4,16 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cc5f268f-7877-47b9-8106-0f7c1a1e802a" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pacientes.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Pacientes.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/controller/MainController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/model/Paciente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/model/Paciente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/service/PacienteService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mx/edu/utez/pacientes/service/PacienteService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/MainView.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mx/edu/utez/pacientes/MainView.fxml" afterDir="false" />
-    </list>
+    <list default="true" id="cc5f268f-7877-47b9-8106-0f7c1a1e802a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +48,7 @@
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "git-widget-placeholder": "AndrecitoFlow/Andres-Angelina",
+    "git-widget-placeholder": "#3 on dev",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/pc/Desktop/utez-2d-pacientes-javafx-equipo04",
     "nodejs_package_manager_path": "npm",
@@ -110,5 +101,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

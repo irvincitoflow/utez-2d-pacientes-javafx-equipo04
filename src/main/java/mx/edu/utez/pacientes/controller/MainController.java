@@ -33,7 +33,6 @@ public class MainController {
         colEstatus.setCellValueFactory(new PropertyValueFactory<>("estatus"));
         colAlergias.setCellValueFactory(new PropertyValueFactory<>("alergias"));
 
-        // Llenar tabla y actualizar contadores
         tblPacientes.setItems(service.getListaPacientes());
         actualizarResumen();
     }

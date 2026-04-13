@@ -73,4 +73,3 @@ Interfaz de ingreso de información con validación de reglas de negocio.
 * **Institución:** Universidad Tecnológica Emiliano Zapata Del Estado de Morelos (UTEZ).
 * **Grupo:** 2°D.
 * **Desarrolladores:** Irvin Abarca Arenas y Angelina Perez Andres Gerardo
-* 

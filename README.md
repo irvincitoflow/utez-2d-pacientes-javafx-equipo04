@@ -1,10 +1,10 @@
 # utez-2d-pacientes-javafx-equipo04
-# Directory of Patients — JavaFX CRUD System
+# Directorio de Pacientes — Sistema CRUD en JavaFX
 
 ## 1. Descripción del Proyecto
 Este sistema de escritorio ha sido diseñado para la gestión integral de registros en consultorios médicos. La aplicación permite administrar el flujo de información de los pacientes a través de una interfaz gráfica intuitiva, garantizando la integridad de los datos mediante una arquitectura robusta de capas.
 
-Desarrollado como proyecto integrador para la asignatura de **Programación Orientada a Objetos**.
+Desarrollado como proyecto integrador para la asignatura de **Programación Estructurada**.
 
 ---
 
@@ -20,11 +20,11 @@ Desarrollado como proyecto integrador para la asignatura de **Programación Orie
 ## 3. Arquitectura del Sistema
 El software se divide en módulos especializados para cumplir con el principio de responsabilidad única (SRP):
 
-* **Model:** Define la entidad `Paciente` con encapsulamiento estricto.
-* **View:** Archivos `.fxml` que contienen la jerarquía de nodos de la interfaz.
-* **Controller:** Gestiona el flujo de eventos y la comunicación entre la vista y la lógica.
-* **Service:** Contiene la lógica de negocio y las validaciones de seguridad.
-* **Repository:** Implementa la persistencia de datos (E/S de archivos).
+* **Model (Modelo):** Define la entidad `Paciente` con encapsulamiento estricto.
+* **View (Vista):** Archivos `.fxml` que contienen la jerarquía de nodos de la interfaz.
+* **Controller (Controlador):** Gestiona el flujo de eventos y la comunicación entre la vista y la lógica.
+* **Service (Servicio):** Contiene la lógica de negocio y las validaciones de seguridad.
+* **Repository (Repositorio):** Implementa la persistencia de datos (E/S de archivos).
 
 ---
 
@@ -60,16 +60,7 @@ Se han implementado filtros de seguridad en la capa de servicio para asegurar la
 
 ---
 
-## 7. Evidencia de Implementación (Capturas)
-
-### Pantalla de Control Principal
-Módulo de visualización de datos y estadísticas generales.
-### Módulo de Captura de Datos
-Interfaz de ingreso de información con validación de reglas de negocio.
-
----
-
-## 8. Créditos y Autoría
+## 7. Créditos y Autoría
 * **Institución:** Universidad Tecnológica Emiliano Zapata Del Estado de Morelos (UTEZ).
 * **Grupo:** 2°D.
 * **Desarrolladores:** Irvin Abarca Arenas y Angelina Perez Andres Gerardo
